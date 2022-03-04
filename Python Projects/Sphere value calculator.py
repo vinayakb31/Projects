@@ -1,7 +1,6 @@
 # Sphere calculator
 
 from cmath import pi
-import math
 
 r = int(input('Enter the radius of the sphere'))
 
