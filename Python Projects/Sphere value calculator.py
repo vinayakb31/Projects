@@ -8,7 +8,6 @@ print("""
 What do you want to calculate?
 1. Surface Area
 2. Volume
-
 """)
 f = int(input('Enter the number'))
 
