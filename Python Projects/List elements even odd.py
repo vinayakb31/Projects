@@ -1,18 +1,9 @@
-n = int(input())
-l = []
+l = eval(input('Enter list with brackets and commas: '))
 l1 = []
-k = 0
-for i in range(n):
-    e = int(input())
-    l.append(e)
-
-print(l)
-for i in range(n):
-    if l[k]%2==0:
-        a = l[k]/2
+for i in l:
+    if i%2 == 0:
+        a = i/2
     else:
-        a = l[k]*2
+        a = i*2
     l1.append(a)
-    k = k+1
-
 print(l1)
